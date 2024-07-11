@@ -47,6 +47,22 @@ Backend Service
 # 5 Start the Backend Server
 
 - npm start
+  
+## API Documentation
+### Authentication
+- POST /register: Register a new user.
+- POST /login: Authenticate a user and return a token.
+### Journal Entries
+- GET /entries: Fetch all journal entries for the authenticated user.
+- POST /entries: Create a new journal entry.
+### PUT /entries/
+- : Update an existing journal entry.
+### DELETE /entries/
+- : Delete a journal entry.
+### Summary
+- GET /summary: Fetch a summary of journal entries over a specified period.
+### Settings
+- PUT /settings: Update user settings (username, password).
 
 ## Technologies Used
 
