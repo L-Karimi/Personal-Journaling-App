@@ -1,4 +1,3 @@
-// screens/EntryDetailsScreen.tsx
 import React from 'react';
 import { View, Text, Button } from 'react-native';
 import axios from 'axios';
